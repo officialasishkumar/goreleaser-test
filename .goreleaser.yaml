@@ -44,3 +44,6 @@ changelog:
     exclude:
       - "^docs:"
       - "^test:"
+
+env: 
+  - GITHUB_TOKEN={{ .Env.GITHUB_TOKEN }}
